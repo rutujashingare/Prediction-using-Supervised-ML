@@ -1,2 +1,17 @@
-# GRIP_TASK--Data-Science-Business-Analytics
- Prediction using Supervised ML GRIP - The Sparks Foundation Prediction of Scores based on Number of Study Hours Used Python Scikit Learn(Sklearn) Library to build the Linear Regression Model
+#   The Sparks Foundation -Graduation Rotational Internship Program
+# Task 1 
+● Predict the percentage of an student based on the no. of study hours.
+
+● What will be predicted score if a student studies for 9.25 hrs/ day?
+
+● This is a simple linear regression task as it involves just 2 variables.
+
+● Dataset : http://bit.ly/w-data
+
+
+# Task 2
+● Prediction using Unsupervised ML
+
+● From the given ‘Iris’ dataset, predict the optimum number of clusters and represent it visually.
+
+● Dataset : https://bit.ly/3kXTdox
