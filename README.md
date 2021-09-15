@@ -1,6 +1,6 @@
 #   The Sparks Foundation -Graduation Rotational Internship Program
 ## Task  
-● Predict the percentage of an student based on the no. of study hours.
+● To Predict the percentage of an student based on the no. of study hours.
 
 ● What will be predicted score if a student studies for 9.25 hrs/ day?
 
@@ -97,6 +97,7 @@ We will assign a value to our, i.e. number of hours studying in order to make pr
 ## Output
 
 No. of hour studied = 9.8
+
 Predicted Score = 93.69
 
 
