@@ -55,9 +55,9 @@ Our aim here is to predict student’s percentage based on the number of hours o
 
 ## Steps
 
-### Step 1: Import Libraries and load dataset 
+#### Step 1: Import Libraries and load dataset 
  
-### Step 2: Creating/Splitting train and test datasets
+#### Step 2: Creating/Splitting train and test datasets
 
 Our main dataset needs to be split into two arrays. This can be accomplished in the following manner:
 
@@ -70,16 +70,16 @@ We'll divide the x and y datasets into four new ones: X_train, y_train, X_test, 
 We'll use 25% of the data for testing our model and 70% to train our model.
 
 
-### Step 3: Fitting our simple linear regression model
+#### Step 3: Fitting our simple linear regression model
 
 To build and train our linear regressor, we must first create an object of Linear Regression by assigning it to a variable, then train it on our dataset using the .fit process.
 
-### Step 4: Testing/Predicting our linear regression model
+#### Step 4: Testing/Predicting our linear regression model
 
 This phase will be as simple as the previous ones because we will be using the regressor. predict method on the test datasets we developed.
 
 
-### Step 5: Visualizing our model
+#### Step 5: Visualizing our model
 
 We'll be using the matplotlib library, which we set up at the start.
 The .scatter approach takes two key parameters: the data points' x and y values. As you can see, we used X_test and y_test to send in the values of the testing data points. The third statement simply indicates what color the data points will be. 
