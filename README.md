@@ -60,8 +60,11 @@ Our aim here is to predict student’s percentage based on the number of hours o
 ### Step 2: Creating/Splitting train and test datasets
 
 Our main dataset needs to be split into two arrays. This can be accomplished in the following manner:
+
 X = d_f.iloc[:, :-1]. values  # No. of Hours
+
 y = d_f.iloc[:, 1].values  # Scores
+
 
 We'll divide the x and y datasets into four new ones: X_train, y_train, X_test, and y_test. The model will use datasets ending in _train to build a line of best fit, while datasets ending in _test will be used to test the model using an accuracy metric. 
 We'll use 25% of the data for testing our model and 70% to train our model.
