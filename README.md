@@ -8,6 +8,30 @@
 
 ● Dataset : http://bit.ly/w-data
 
+
+## Machine Learning
+
+Machine learning is an area of artificial intelligence (AI) concerned with the development of systems that can learn from and make predictions based on data. Instead of being directly programmed to perform a task, machine learning allows computers to behave and make data-driven decisions. 
+
+![image](https://user-images.githubusercontent.com/70087327/133468362-0d9fc91c-8995-4452-a72b-f2a3649e2930.png)
+
+
+Machine learning programs are often designed to learn and adapt over time as they are exposed to new data. Machine Learning Algorithm can be broadly classified into three types: Supervised Learning Algorithms, Unsupervised Learning Algorithms and Reinforcement Learning algorithm.
+
+## Supervised Learning
+
+
+When a program has been "trained" on a collection of data and then presented new data, it will make the best decisions possible based on its prior knowledge. Supervised learning can be further divided into two types: Regression and Classification.
+
+![image](https://user-images.githubusercontent.com/70087327/133468497-ba6200f2-9a8c-412c-88b9-2bf3854a11a5.png)
+
+## Regression
+
+Regression algorithms are used when there is a relationship between the input and output variables. It's a forecasting function for continuous variables. Linear Regression, Regression Trees, Non-Linear Regression, Bayesian Linear Regression, and Polynomial Regression are some examples of supervised learning regression algorithms.
+
+![image](https://user-images.githubusercontent.com/70087327/133468656-ac1388c1-4790-45d3-98a1-48130451f6be.png)
+
+
 ## Linear Regression
 
 Linear regression is a statistical regression-based method for predicting outcomes. It is one of the most basic and straightforward algorithms for calculating regression and displaying the relationship between continuous variables. 
@@ -18,10 +42,8 @@ Linear regression with only one input variable is known as simple linear regress
 
 A simple linear regression algorithm is used to find a linear relationship between two variables provided a training dataset. We want to model our data with simple linear regression like this: y = B0 + B1x + u
 
-![image](https://user-images.githubusercontent.com/70087327/133466130-156e388c-762e-418e-a613-75c1aa68d6c1.png)
+![image](https://user-images.githubusercontent.com/70087327/133468880-5b40afc2-a14f-4736-af02-fd8282a062ad.png)
 
-
-Above fig shows Simple Linear Regression Equation
 
 This is an illustration of a line where, y is the output variable we want to predict, x is the known input variable, and B0 and B1 are the coefficients that pass the line around that we need to estimate. 
 •	From a technical standpoint, as B0 defines where the line intersects the y-axis, it is referred to as the intercept. This is known as bias in machine learning because it is used to offset all of our predictions. 
@@ -33,7 +55,7 @@ Our aim here is to predict student’s percentage based on the number of hours o
 
 ## Steps
 
-### Step 1: Import Libraries and load dataset
+### Step 1: Import Libraries and load dataset 
  
 ### Step 2: Creating/Splitting train and test datasets
 
