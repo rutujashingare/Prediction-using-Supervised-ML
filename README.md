@@ -46,8 +46,11 @@ A simple linear regression algorithm is used to find a linear relationship betwe
 
 
 This is an illustration of a line where, y is the output variable we want to predict, x is the known input variable, and B0 and B1 are the coefficients that pass the line around that we need to estimate. 
+
 •	From a technical standpoint, as B0 defines where the line intersects the y-axis, it is referred to as the intercept. This is known as bias in machine learning because it is used to offset all of our predictions. 
+
 •	The B1 term is called the slope because it defines the slope of the line or how x translates into a y value before we add our bias and u is the residual or noise that is caused by unexplained factors.
+
 •	The goal is to find the best coefficient estimates to reduce the errors in predicting y from x.
 
 ## Objective
